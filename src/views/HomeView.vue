@@ -12,10 +12,7 @@
             <div class="shadow"></div>
           </div>
           <div class="name">
-            <h1>IM_GC</h1>
-            <el-icon color="#409efc">
-                            <Edit />
-                            </el-icon>
+            <h1>I M G C</h1>
           </div>          
         </section>
       </el-main>
