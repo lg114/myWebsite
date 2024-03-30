@@ -7,9 +7,20 @@
                 <span class="title">Welcome to my website!</span>
             </el-col>
             <el-col class=" nav hidden-md-and-down" :xs="8" :sm="6" :md="4" :lg="3" :xl="2">
-                <RouterLink to="/" class="nav-item">Home</RouterLink>
-                <span style="margin-left: 10px; margin-right: 10px; color: #ffffff;">|</span>
-                <RouterLink to="/about" class="nav-item">About Me</RouterLink>
+                <div class="desktop_menu">
+                    <RouterLink to="/" class="nav-item">Home</RouterLink>
+                    <span style="margin-left: 10px; margin-right: 10px; color: #ffffff;">|</span>
+                    <RouterLink to="/about" class="nav-item">About Me</RouterLink>
+                </div>
+                <div class="mobile_menu">
+                    <el-dropdown>
+                        <span class="dropBtn">
+                                <el-icon color="#409efc">
+                            <Edit />
+                            </el-icon>
+                        </span>
+                    </el-dropdown>
+                </div>
             </el-col>
         </el-row>
     </div>

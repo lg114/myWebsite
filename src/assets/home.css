@@ -1,11 +1,14 @@
+.container{
+    height: 100vh;
+}
 .main{
     width: auto;
-    height: 100vh;
     background-color: black;
     color:#DBDBDB;
 }
 .avatar{
     text-align: center;
+    margin: 0 auto;
 }
 .avatar img{
     width: auto;
