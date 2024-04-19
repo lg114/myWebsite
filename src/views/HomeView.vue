@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
   <div class="container">
       <navbar/>
@@ -18,6 +14,9 @@
       </el-main>
   </div>
 </template>
+
+<script>
+</script>
 
 
 <style scoped>

@@ -1,7 +1,7 @@
 <template>
+  <navbar/>
   <div class="about">
     <h1>This is an about page</h1>
-    <span>123123123123</span>
   </div>
 </template>
 
@@ -11,6 +11,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
+    color:aqua;
   }
 }
 </style>
