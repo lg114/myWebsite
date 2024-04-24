@@ -13,7 +13,7 @@
     import { useRouter } from 'vue-router';
 
     const markdownFiles = [
-        'https://github.com/lg114/myWebsite/blob/main/public/md/bookList.md',
+        'https://raw.githubusercontent.com/lg114/myWebsite/blob/main/public/md/bookList.md',
         // 添加其他 Markdown 文件路径
     ];
     const contents = ref([]);
