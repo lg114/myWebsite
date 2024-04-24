@@ -32,21 +32,22 @@
         </el-row>
     </div>
 </template>
-<script>
+<script setup>
+    import { useRouter } from 'vue-router';
 
-    export default {
-        name: 'navBar',
-        methods: {
-            handleCommand(command) {
-                if(command === 'goHome'){
-                    this.$router.push('/');
-                }else if(command === 'goAbout'){
-                    this.$router.push('/about');
-                }
-            }
+    const name = 'navBar';
+
+    const router = useRouter();
+
+    const handleCommand = (command) => {
+        if (command === 'goHome') {
+        router.push('/');
+        } else if (command === 'goAbout') {
+        router.push('/about');
         }
-    }
+    };
 </script>
+
 
 <style scoped>
     .container {

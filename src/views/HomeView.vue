@@ -25,9 +25,6 @@
   </div>
 </template>
 
-<script>
-</script>
-
 <style scoped>
   @import '@/assets/home.css';
 </style>
